@@ -1,151 +1,125 @@
 V3NOM
 
-«A lightweight Android command agent built for authorized device management, security research, and educational testing.»
+«Lightweight Android command agent built for authorized device management, security research, and educational testing.»
 
-"Platform" (https://img.shields.io/badge/Platform-Android-brightgreen)
-"Language" (https://img.shields.io/badge/Language-Java-orange)
-"IDE" (https://img.shields.io/badge/IDE-Android%20Studio-blue)
-"License" (https://img.shields.io/badge/License-MIT-success)
-
----
-
-📖 Overview
-
-V3NOM is a modular Android Studio project that demonstrates command-based communication between an Android device and a Telegram bot. It is designed for learning Android background services, command processing, device management concepts, and security research in authorized environments.
-
-The project follows a modular architecture, making it easy to extend with additional commands and features.
+"Android" (https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
+"Java" (https://img.shields.io/badge/Language-Java-orange?logo=openjdk&logoColor=white)
+"Android Studio" (https://img.shields.io/badge/IDE-Android%20Studio-3DDC84?logo=androidstudio&logoColor=white)
+"Gradle" (https://img.shields.io/badge/Build-Gradle-02303A?logo=gradle&logoColor=white)
+"Telegram" (https://img.shields.io/badge/API-Telegram-26A5E4?logo=telegram&logoColor=white)
+"License" (https://img.shields.io/badge/License-MIT-blue)
 
 ---
 
-✨ Features
+Overview
 
-- ⚡ Lightweight Android agent
-- 🤖 Telegram Bot integration
-- 📡 Command-based communication
-- ✅ Device availability check
-- 📱 Device information retrieval
-- 📂 File management utilities
-- 📍 Location support
-- 📷 Camera integration
-- 👥 Contacts support
-- 💬 SMS support
-- 🔄 Foreground service
-- 🚀 Auto start after boot
-- 🧩 Modular command architecture
-- 🛠️ Easy to extend
+V3NOM is an Android Studio project that demonstrates a modular command-based architecture for Android applications. It is designed for Android development practice, background service implementation, command processing, and integration with external messaging platforms in authorized environments.
+
+The project follows a clean and modular structure, making it straightforward to study, extend, and maintain.
 
 ---
 
-📋 Requirements
+Features
+
+- Lightweight Android architecture
+- Modular command handling
+- Telegram Bot integration
+- Foreground service support
+- Boot receiver implementation
+- Background task execution
+- Device status reporting
+- Android Studio ready
+- Java based implementation
+- Easy to extend
+
+---
+
+Requirements
 
 - Android Studio
-- Android SDK
 - Java
+- Android SDK
 - Gradle
 - Telegram Bot Token
 - Telegram Chat ID
 
 ---
 
-🚀 Installation
+Installation
 
-Clone the repository
+Clone the repository.
 
-git clone https://github.com/yourusername/V3NOM.git
+git clone https://github.com/blackhatvenomm/V3NOM.git
 
-Open the project in Android Studio.
+Open the project using Android Studio.
 
-Allow Gradle to finish syncing.
+Allow Gradle to sync all project dependencies.
 
-Configure your Telegram credentials.
+Configure your own Telegram Bot credentials before building.
 
-Build the APK.
-
-Install the APK on a test device.
+Build and install the application on your Android test device.
 
 ---
 
-⚙ Configuration
+Project Structure
 
-Before building the project, configure your own Telegram Bot credentials.
+V3NOM
+│
+├── app
+│   ├── src
+│   ├── res
+│   ├── java
+│   └── AndroidManifest.xml
+│
+├── gradle
+├── README.md
+└── settings.gradle
 
-BOT_TOKEN=YOUR_TOKEN
+---
 
+Configuration
+
+Replace the default configuration values with your own credentials.
+
+BOT_TOKEN=YOUR_BOT_TOKEN
 CHAT_ID=YOUR_CHAT_ID
 
-Never publish your real bot token or chat ID.
+Never publish private credentials inside a public repository.
 
 ---
 
-🔨 Build
+Build
 
-Debug Build
+Debug APK
 
 Build → Build APK(s)
 
-Release Build
+Release APK
 
 Build → Generate Signed Bundle / APK
 
 ---
 
-📱 Example Commands
+Technologies
 
-/alive
-/status
-/location
-/files
-/contacts
-/camera
-/sms
-/filemn 
-The available commands depend on the current implementation.»
+- Java
+- Android SDK
+- Android Studio
+- Gradle
+- Telegram Bot API
+- Android Services
+- Broadcast Receivers
 
 ---
 
-📂 Permissions
+License
 
-The application may require permissions depending on enabled features, such as:
+This repository is licensed under the MIT License.
 
-- Internet
-- Foreground Service
-- Boot Completed
-- Camera
-- Contacts
-- SMS
-- Location
-- Storage
+See the LICENSE file for more information.
 
 ---
 
-📚 Educational Purpose
+Disclaimer
 
-This repository is intended to demonstrate Android background services, Telegram Bot integration, command processing, and modular application architecture for learning and research in authorized environments.
-
----
-
-🤝 Contributing
-
-Contributions are welcome.
-
-If you discover a bug or have suggestions for improvements, feel free to open an Issue or submit a Pull Request.
-
----
-
-⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub.
-
----
-
-📄 License
-
-This project is licensed under the MIT License.
-
-See the LICENSE file for details.
-
----
-
-⚠ Disclaimer
-
-This software is provided for educational purposes, security research, and authorized testing only. It should only be used on devices you own or have explicit permission to manage or evaluate. Users are solely responsible for complying with applicable laws and regulations. The author assumes no responsibility for misuse of this software.
+This repository is intended for educational purposes, Android development practice, security research, and authorized testing. It should only be used on devices that you own or are explicitly authorized to manage or evaluate. The author assumes no responsibility for misuse or deployment in unauthorized environments.
