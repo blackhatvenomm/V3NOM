@@ -1,40 +1,34 @@
-V3NOM
+# V3NOM
 
-«Lightweight Android command agent built for authorized device management, security research, and educational testing.»
+> **Lightweight Android command agent built for authorized device management, security research, and educational testing.**
 
-"Android" (https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
-"Java" (https://img.shields.io/badge/Language-Java-orange?logo=openjdk&logoColor=white)
-"Android Studio" (https://img.shields.io/badge/IDE-Android%20Studio-3DDC84?logo=androidstudio&logoColor=white)
-"Gradle" (https://img.shields.io/badge/Build-Gradle-02303A?logo=gradle&logoColor=white)
-"Telegram" (https://img.shields.io/badge/API-Telegram-26A5E4?logo=telegram&logoColor=white)
-"License" (https://img.shields.io/badge/License-MIT-blue)
-
----
-
-Overview
-
-V3NOM is an Android Studio project that demonstrates a modular command-based architecture for Android applications. It is designed for Android development practice, background service implementation, command processing, and integration with external messaging platforms in authorized environments.
-
-The project follows a clean and modular structure, making it straightforward to study, extend, and maintain.
+![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Java](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+![Telegram](https://img.shields.io/badge/API-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 ---
 
-Features
+## Overview
 
-- Lightweight Android architecture
-- Modular command handling
-- Telegram Bot integration
-- Foreground service support
-- Boot receiver implementation
-- Background task execution
-- Device status reporting
-- Android Studio ready
-- Java based implementation
-- Easy to extend
+V3NOM is a lightweight Android Studio project demonstrating a modular command-based architecture for Android applications. It is intended for Android development practice, background service implementation, and Telegram Bot integration in authorized environments.
 
----
+## Features
 
-Requirements
+- 📱 Device Status
+- 📍 Location
+- 📷 Camera
+- 👥 Contacts
+- 💬 SMS
+- 📂 File Manager
+- 🤖 Telegram Bot
+- 🔄 Foreground Service
+- 🚀 Auto Start
+- ⚡ Background Service
+
+## Requirements
 
 - Android Studio
 - Java
@@ -43,83 +37,44 @@ Requirements
 - Telegram Bot Token
 - Telegram Chat ID
 
----
+## Installation
 
-Installation
-
-Clone the repository.
-
+```bash
 git clone https://github.com/blackhatvenomm/V3NOM.git
+```
 
-Open the project using Android Studio.
+1. Open in Android Studio.
+2. Let Gradle sync.
+3. Configure your Telegram Bot credentials.
+4. Build the APK.
+5. Install on an authorized test device.
 
-Allow Gradle to sync all project dependencies.
+## Configuration
 
-Configure your own Telegram Bot credentials before building.
-
-Build and install the application on your Android test device.
-
----
-
-Project Structure
-
-V3NOM
-│
-├── app
-│   ├── src
-│   ├── res
-│   ├── java
-│   └── AndroidManifest.xml
-│
-├── gradle
-├── README.md
-└── settings.gradle
-
----
-
-Configuration
-
-Replace the default configuration values with your own credentials.
-
+```properties
 BOT_TOKEN=YOUR_BOT_TOKEN
 CHAT_ID=YOUR_CHAT_ID
+```
 
-Never publish private credentials inside a public repository.
+## Build
 
----
-
-Build
-
-Debug APK
-
+```text
 Build → Build APK(s)
-
-Release APK
-
 Build → Generate Signed Bundle / APK
+```
 
----
-
-Technologies
+## Tech Stack
 
 - Java
 - Android SDK
 - Android Studio
 - Gradle
 - Telegram Bot API
-- Android Services
-- Broadcast Receivers
 
----
+## License
 
-License
+MIT License.
 
-This repository is licensed under the MIT License.
+## Disclaimer
 
-See the LICENSE file for more information.
-
----
-
-Disclaimer
-
-This repository is intended for educational purposes, Android development practice, security research, and authorized testing. It should only be used on devices that you own or are explicitly authorized to manage or evaluate. The author assumes no responsibility for misuse or deployment in unauthorized environments.
+This project is intended for educational purposes, Android development practice, security research, and authorized testing only. Use it only on devices you own or are explicitly authorized to manage or evaluate.
