@@ -23,7 +23,6 @@ V3NOM is a lightweight Android Studio project demonstrating a modular command-ba
 - 👥 Contacts
 - 💬 SMS
 - 📂 File Manager
-- 🤖 Telegram Bot
 - 🔄 Foreground Service
 - 🚀 Auto Start
 - ⚡ Background Service
