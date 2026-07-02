@@ -54,6 +54,19 @@ git clone https://github.com/blackhatvenomm/V3NOM.git
 BOT_TOKEN=YOUR_BOT_TOKEN
 CHAT_ID=YOUR_CHAT_ID
 ```
+## 📋 Available Commands
+
+| Command | Description |
+|---------|-------------|
+| `/alive` | Check device availability |
+| `/status` | Retrieve device status |
+| `/help` | Display all available commands |
+| `/location` | Retrieve current location |
+| `/camera` | Camera controls |
+| `/contacts` | Access contacts |
+| `/sms` | SMS management |
+| `/files` | Recent gallery media |
+| `/filemn` | File manager |
 
 ## Build
 
