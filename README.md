@@ -59,14 +59,16 @@ CHAT_ID=YOUR_CHAT_ID
 | Command | Description |
 |---------|-------------|
 | `/alive` | Check device availability |
-| `/status` | Retrieve device status |
-| `/help` | Display all available commands |
+| `/status` | Get device information |
+| `/help` | Display available commands |
 | `/location` | Retrieve current location |
-| `/camera` | Camera controls |
+| `/camera` | Capture image using the rear camera |
+| `/frontcam` | Capture image using the front camera |
+| `/audio<seconds>` | Record audio for the specified duration (e.g., `/audio20` records for 20 seconds) |
 | `/contacts` | Access contacts |
-| `/sms` | SMS management |
-| `/files` | Recent gallery media |
-| `/filemn` | File manager |
+| `/sms` | Access SMS messages |
+| `/files` | Browse recent gallery media |
+| `/filemn` | Browse files using the file manager |
 
 ## Build
 
