@@ -19,7 +19,8 @@ V3NOM is a lightweight Android Studio project demonstrating a modular command-ba
 
 - 📱 Device Status
 - 📍 Location
-- 📷 Camera
+- 🎙️ microphone 
+- 📷 Camera front/back
 - 👥 Contacts
 - 💬 SMS
 - 📂 File Manager
